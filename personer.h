@@ -2,10 +2,12 @@
 #define PERSONER_PERSONER_H
 
 struct person_t {
-    char *first_name;
-    char *last_name;
+    char *first_name; // 8 bytes
+    char *last_name;  // 8 bytes
+    // int year_born; // 8 bytes
 };
 
 struct person_t *make_person(char *, char *);
+
 
 #endif //PERSONER_PERSONER_H
