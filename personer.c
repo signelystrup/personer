@@ -16,3 +16,9 @@ struct person_t *make_person(char *first_name, char *last_name) {
 
     return new;
 }
+
+void free_person(struct person_t *person) {
+    // TODO: Frigør first_name og sæt værdien til NULL
+    // TODO: Frigør last_name og sæt værdien til NULL
+    // TODO: Frigør selve struct'en og sæt værdien til NULL
+}
