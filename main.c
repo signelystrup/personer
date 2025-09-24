@@ -7,7 +7,7 @@ int main(void) {
 
     struct person_t *person = make_person("Hanne", "Nielsen");
 
-    printf("%s", person->first_name );
+    printf("Navn: %s %s\n", person->first_name , person->last_name);
 
     return 0;
 }
